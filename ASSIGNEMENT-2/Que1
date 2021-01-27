@@ -1,0 +1,15 @@
+<html>
+<head>
+<title>Question 1</title>
+</head>
+<h1>The value of a constant can't be changed through reassignment, and it can't be redeclared.</h1>
+<body>
+  <script>  
+  
+  const clothes = ['jacket', 't-shirt'];
+clothes.length = 0;
+console.log(clothes[0]);
+
+   </script> 
+</body>
+</html>
